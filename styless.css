@@ -1,0 +1,144 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: rgb(243, 231, 232);
+}
+header{
+    
+    width: 90%;
+    margin: 50px ;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    background-color: rgb(60, 60, 216);
+    color: white;
+    width: auto;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+
+}
+.btn:hover{
+    background-color: rgb(12, 12, 116);
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+#highlightScetion{
+    
+    width: 70%;
+    margin: 50px auto;
+}
+#highlightScetion > h2{
+font-size: 50px;
+font-weight: 800;
+text-shadow: 2px 2px 5px rgb(206, 136, 136);
+text-align: center;
+margin-bottom: 25px;
+}
+#highlightScetion > p{
+    width: 40%;
+    margin: 0 auto;
+    color: rgb(107, 98, 98);
+    text-align: center;
+    margin-bottom: 25px ;
+}
+#buy-now-button{
+    display: flex;
+    justify-content: center;
+}
+#cover-image-section{
+   
+    width: 70%;
+    margin: 50px auto;
+}
+#cover-image-section img{
+    width: 100% ;
+}
+#search-seaction{
+    width: 50%;
+    height: 70% auto;
+    margin: 50px auto;
+}
+#search-seaction > h2 {
+text-align: center;
+margin-bottom: 25px;
+
+}
+#search-container{
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    width: 70%;
+   margin: 0 auto;
+   background-color: rgb(230, 227, 205);
+   display: flex;
+}
+#Search-bar{
+    width: 70%;
+   
+}
+#Search-bar > input[type="text"]{
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 50%;
+    background-color: rgb(230, 227, 205);
+}
+#Search-button{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
+#card-section{
+    width: 80%;
+   margin: 50px auto;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 20px;
+}
+.card{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+.card-image{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.card-image:hover{
+    background-color: antiquewhite;
+    transition: 0.8s;
+}
+.card-image >img{
+    width: 100%;
+    height: 350px;
+}
+.card-taitle{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.card-discription{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(141, 125, 125);
+}
+.card-price{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.card-button{
+width: 50%;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+}

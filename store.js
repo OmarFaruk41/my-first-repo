@@ -10,5 +10,8 @@ const loadPhone = async (searchText) => {
     displayPhones(searverData.data);
 };
 const displayPhones = (data) => {
-console.log("Inside displayPhones function:", data);
+    console.log(data);
+const cardsContainer = document.getElementById('card-section');
+data.forEach(phone => {
+    
 }

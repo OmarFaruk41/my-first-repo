@@ -89,7 +89,7 @@ margin-bottom: 25px;
     background-color: rgb(230, 227, 205);
 }
 #Search-button{
-    width: 30%;
+    /* width: 10%; */
     display: flex;
     justify-content: end;
 }
@@ -183,14 +183,9 @@ body {
   cursor: pointer;
 }
 
-.join-btn {
-  padding: 10px 20px;
-  background-color: #126bff;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-weight: bold;
+join-premium {
+  display: flex;
+  justify-content: end;
 }
 
 hr {
